@@ -1,0 +1,12 @@
+2) Write a TypeScript program that calculates the area of a
+triangle.
+=function calculateTriangleArea(base: number, height: number): number {
+    return (base * height) / 2;
+}
+
+let base: number = 10;
+let height: number = 5;
+let area: number = calculateTriangleArea(base, height);
+
+console.log(`The area of a triangle with base ${base} and height ${height} is ${area.toFixed(2)}`);
+
